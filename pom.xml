@@ -11,6 +11,9 @@
     <modules>
         <module>shanjupay-common</module>
         <module>shanjupay-merchant-application</module>
+        <module>shanjupay-merchant</module>
+        <module>shanjupay-merchant/shanjupay-merchant-api</module>
+        <module>shanjupay-merchant/shanjupay-merchant-service</module>
     </modules>
 
     <parent>
@@ -23,7 +26,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-
         <org.projectlombok.version>1.18.0</org.projectlombok.version>
         <org.mapstruct.version>1.3.0.Final</org.mapstruct.version>
     </properties>
